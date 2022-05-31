@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "category": "Tea",
+      "name": "AStar Silver",
+      "image": "s.png",
+      "size": "XL",
+      "color": "Green",
+      "price": 220.00
+    },
+    {
+      "id": 2,
+      "category": "Tea",
+      "name": "AStar Gold",
+      "image": "g.png",
+      "size": "L",
+      "color": "Gold",
+      "price": 120.00
+    }
+  ]

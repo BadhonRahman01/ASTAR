@@ -1,0 +1,18 @@
+@media  (max-width:500px) {
+    body {
+      background-color: deepskyblue;
+    }
+  }
+  @media (min-width:600px) and (max-width:900px){
+    p  {
+        color: blue;
+           } 
+           body {
+            background-color: purple;
+          }       
+}
+  @media  (min-width:1000px) {
+    body {
+      background-color: greenyellow;
+    }
+    

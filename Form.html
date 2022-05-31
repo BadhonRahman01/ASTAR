@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Dealership Form</title>
+    
+    
+
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="form.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-63ec8907-ca67-4501-ae21-15cdab191f79"></div>
+<link href = "css/bootstrap.min.css" rel = "stylesheet">
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+          <img src="logo.svg" width="30" height="50">
+          <a href="#home" class="w3-bar-item w3-button" style="color:red;"><b>এ</b></a>
+              <a href="#home" class="w3-bar-item w3-button" >  স্টার</a>
+          <!-- Float links to the right. Hide them on small screens -->
+          <div class="w3-right w3-hide-small">
+            <a href="Homepage.html" class="w3-bar-item w3-button"><b>হোম</b></a>
+            <a href="Products.html" class="w3-bar-item w3-button"  ><b>প্রোডাক্টসমূহ</b></a>
+            <a href="Form.html" class="w3-bar-item w3-button"><b>ডিলারশিপ</b></a>
+            <a href="about.html" class="w3-bar-item w3-button"><b>আমাদের সম্পর্কে</b></a>
+          </div>
+        </div>
+      </div>
+<!-- Form code starting -->
+
+<div class="testbox">
+  <form action="/">
+    <div class="banner">
+      <h1>ডিলারশিপ আবেদন ফর্ম</h1>
+    </div>
+    <h2>আবেদন কারির বিত্তান্ত</h2>
+    <div class="item">
+      <p>নাম</p>
+      <div class="name-item">
+        <input type="text" name="name" placeholder="প্রথম নাম"/>
+        <input type="text" name="name" placeholder="শেষ নাম"/>
+      </div>
+    </div>
+    <div class="item">
+      <p>ফোন</p>
+      <input type="text" style="width: 400px;" name="ফোন নাম্বার"/> 
+      
+      
+    </div>
+    <div class="item">
+      <p> জন্ম তারিখ</p>
+      <input type="date"  name="জন্ম তারিখ"/>
+      <i class="fas fa-calendar-alt"></i>
+    </div>
+    
+    <div class="item">
+      <p>ইমেইল</p>
+      <input type="text" name="ইমেইল"/>
+    </div>
+
+      
+    
+    <div class="item">
+      <p>ঠিকানা</p>
+      <input type="text" name="name" placeholder=" রাস্তার " />
+      <div class="city-item">
+        <input type="text" name="name" placeholder="শহর" />
+        <input type="text" name="name" placeholder="জেলা" />
+        <input type="text" name="name" placeholder="পোস্টাল কোড" />
+        <select>
+          <option value="">Bangladesh</option>
+          <option value="1">Russia</option>
+          <option value="2">Germany</option>
+          <option value="3">France</option>
+          <option value="4">Armenia</option>
+          <option value="5">USA</option>
+        </select>
+      </div>
+    </div>
+    <h2>কোম্পানি বিত্তান্ত</h2>
+    <div class="item">
+      <p>কোম্পানি নাম</p>
+      <input type="text" name="name" placeholder="নাম"/>
+    </div>
+    <div class="item">
+      <p>ঠিকানা</p>
+      <input type="text" name="ঠিকানা"/>
+    </div>
+    <div class="item">
+      <p>আপনার ডিলার হওয়ার পুরনো অভিজ্ঞতা আছে?</p>
+      <input type="radio" id="y" name="অভিজ্ঞতা" value="হ্যাঁ" style="width: 40px;">
+      <label for="y">হ্যাঁ</label><br>
+      <input type="radio" id="n" name="অভিজ্ঞতা" value="না" style="width: 40px;">
+      <label for="n">না</label>
+      <input type="text" placeholder="আপনি কোন পণ্য নিয়ে কাজ করেছিলেন?"/>
+  
+    </div>
+    <div class="question">
+      <p>গোপনীয়তা নীতি<span class="required">*</span></p>
+      <div class="question-answer checkbox-item">
+        <div>
+          <input type="checkbox" value="none" id="check_1" name="check" required/>
+          <label for="check_1" class="check"><span> আমি মানিয়া নিলাম<a href="https://beatnik.technology">গোপনীয়তা নীতি</a></span></label>
+        </div>
+      </div>
+    </div>
+    <div class="btn-block">
+      <button type="submit" href="/" class="w3-button w3-light-green w3-section">পাঠিয়ে দিন</button>
+    </div>
+  </form>
+</div>
+ <!-- From Code Ending -->
+ <footer class="w3-center w3-light-green w3-padding-16">
+  <div class="row">
+    <div class="column" >
+      <p><b>আমাদের সম্পর্কে</b><br>
+      <p class="powered-text" style="text-align:left">ডিজাইন কপিরাইট  &copy;
+        <a href="#">Beatnik.Technology</a>.
+    </div>
+    <div class="column" >
+      <p><b>ডিলারশিপ</b><br>
+        ডিলারশিপ এর জন্য যোগাযোগ করুন (হটলাইন): 09863739992
+      <br>
+    </div>
+    <div class="column" >
+      <h6><b>বিভিন্ন</b></h6>
+            <ul class="footer-links">
+              <li><a href="login.html">লগ ইন</a></li>
+              <li><a href="Products.html">প্রোডাক্টসমূহ</a></li>
+              <li><a href="Form.html">ডিলারশিপ</a></li>
+              <li><a href="about.html">আমাদের সম্পর্কে</a></li>
+          
+            </ul>
+    </div>
+  </div>
+  <div class="row">
+  <div class="container">
+  <p class="copyright-text" style="text-align:left">কপিরাইট  &copy; ২০২১ সর্বস্বত্ব 
+    <a href="#">আমতলী প্ল্যান্টেশন লিমিটেড</a> দ্বারা সংরক্ষিত।.
+       </p>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="https://www.facebook.com/beatnik.technology/"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="https://twitter.com/Beatnikbd"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/company/beatnik-technology"><i class="fa fa-linkedin"></i></a></li>   
+        </ul>
+      </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
